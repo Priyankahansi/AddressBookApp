@@ -26,7 +26,7 @@ body {
 
 .logo-content-img { border: solid 0px #42515f;}
 
-.emp-text {
+.address-text {
     font: normal normal bold 20px/25px Arial, Helvetica, sans-serif;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0px;
@@ -34,7 +34,35 @@ body {
     text-transform: capitalize;
 }
 
-.emp-payroll {color: darkslategray; }
+.address_Book {color: darkslategray; }
 
 * { box-sizing: border-box; }
+.form-content {
+    min-height: calc(100% 80%);
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0 solid green;
+}
+
+.form {
+    width: 65%;
+		padding: 44px 60px;
+		border-radius: 8px;
+		opacity: 1;
+		border: 1px solid #f5f5f5;
+		box-shadow: 0px 3px 6px #00000029;
+		background: white 0% 0% no-repeat padding-box;
+}
+
+.form-head {
+	font: normal normal bold 25px/38px Arial;
+	letter-spacing: 0px;
+	color: darkblue;
+	text-transform: capitalize;
+	opacity: 1;
+	padding-bottom: 20px;
+	
+}
 
