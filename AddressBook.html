@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,8 +11,17 @@
         <div class="logo-content">
             <img src="Images/images2.jpg" alt="">
             <div>
-							<span class="emp-text">Person</span><br>
-							 <span class="emp-text emp-payroll"> Address Form</span> 
+							<span class=".address-text">AddressBook</span><br>
+							 <span class=".address-text .address_Book">Form</span> 
 						</div>
 				</div>
 				 </header>
+                 <div class="form-content">
+                    <form class="form" action="#" onreset="resetForm()" onsubmit="save()">
+                      <div class="form-head">PERSON ADDRESS FORM</div>
+                        <div class="row-content">
+                            <label class="label text" for="name">Name</label> 
+                              <input class="input" type="text" id="name" name="name" 
+                                        placeholder="Your Name..." required>
+                                        <error-output class="text-error" for="text"></error-output>
+                        </div>
